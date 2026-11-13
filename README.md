@@ -89,6 +89,8 @@ Create a `.env` file in the repository root (this file is git-ignored):
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 LLM_MODEL=gemini-3.5-flash-lite
+EMBEDDING_MODEL=gemini-embedding-001
+SIMILARITY_THRESHOLD=0.55
 LLM_TIMEOUT_SECONDS=45.0
 LLM_MAX_RETRIES=5
 LOG_LEVEL=INFO
