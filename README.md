@@ -9,8 +9,8 @@ A systems-engineering progression building a production-grade **AI Sales & Resea
 | Stage | Project Folder | Core Engineering Focus | Status |
 | :--- | :--- | :--- | :--- |
 | **01** | [`01-resilient-model-integration`](./01-resilient-model-integration) | Native async SDK integration (`google-genai`), explicit timeout enforcement, exponential backoff with jitter, `MAX_TOKENS` truncation detection, JSON structured logging, and async SSE streaming | **Completed** |
-| **02** | `02-grounded-evidence-rag` | Overlapping document chunking, dense vector embeddings, vectorized cosine similarity indexing, strict inline `[chunk_id]` citation enforcement, and similarity-threshold refusal gates | In Progress |
-| **03** | `03-structured-schema-extraction` | Strict Pydantic output contracts, JSON schema enforcement, validation-repair retry loops, and deterministic company/prospect profiling | Planned |
+| **02** | [`02-grounded-evidence-rag`](./02-grounded-evidence-rag) | Overlapping document chunking, dense vector embeddings, vectorized cosine similarity indexing, inline `[chunk_id]` citation enforcement, and similarity-threshold refusal gates | **Completed** |
+| **03** | `03-structured-schema-extraction` | Strict Pydantic output contracts, JSON schema enforcement, validation-repair retry loops, and deterministic company/prospect profiling | In Progress |
 | **04** | `04-deterministic-tool-use` | Typed function-calling schemas, explicit tool registry, runtime argument validation, sandboxed execution, and structured tool error recovery | Planned |
 | **05** | `05-stateful-workflow-orchestration` | Explicit state machines, step and token budgets, infinite-loop guards, and execution checkpointing | Planned |
 | **06** | `06-persistent-memory-context` | Episodic and semantic prospect memory, context window compression, and cross-session recall | Planned |
